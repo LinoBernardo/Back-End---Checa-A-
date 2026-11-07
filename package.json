@@ -1,0 +1,16 @@
+{
+  "name": "checa-ai-backend",
+  "version": "1.0.0",
+  "description": "Back-end do Checa Aí: cadastro de notícias, histórico de consultas e ranking de denúncias",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}
